@@ -1,0 +1,7 @@
+                                Programa de Integración y Disparo 1.0
+
+
+1. DIAGRAMAS DE BIFURCACIONES
+
+	Permite trazar diagramas que ilustran los cambios cualitativos que tiene la dinámica de las funciones de S¹ en S¹ del sistema (1), (2) al variar alguno de sus parámetros y mantener los demás constantes. Recordemos que estamos analizando una familia de funciones dependientes de parámetros. Así, en este escenario gráfico el eje horizontal representa los valores del parámetro que varía, y el eje vertical representa el intervalo [0,1), el cual es topológicamente equivalente a S¹, que es la circunferencia de radio 1/(2p) si identificamos los extremos del intervalo. Por lo tanto, para cada valor del parámetro variante, podemos observar el tipo de órbita en S¹ que genera la función de disparos en turno, al iterar un número transitorio suficientemente grande de veces que permita que las iteraciones se aproximen a alguna órbita periódica y trazar únicamente las iteraciones finales. Con esto podemos ver los cambios en el período de las órbitas trazadas.
+	En la parte superior de la pantalla de este módulo se traza como auxiliar una gráfica del exponente de Lyapunov para la función de tiempos de disparos del sistema en cada valor del parametro variante. El exponente de Lyapunov tiene la propiedad de ser negativo cuando la dinámica de la función f(t) es periódica y positivo cuando ésta es ergódica o semiperiódica.

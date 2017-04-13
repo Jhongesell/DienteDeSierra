@@ -1,0 +1,6 @@
+                                Programa de Integración y Disparo 1.0
+
+
+5. CURVAS INTEGRALES
+
+	Aquí se trazan las soluciones de la ecuación diferencial del modelo, junto con la condición de salto, esto es, que podemos elegir una condición inicial (0,t), y a partir de ahí trazar la curva integral de (1) correspondiente a esta condición inicial. Si la curva integral llega en algún momento t* al umbral de disparos, automáticamente se elige otra condición inicial (0,t*) y el proceso se repite. Es posible seleccionar varias opciones para trazar curvas auxiliares, como las ceroclinas de la ecuación (1) y así completar el análisis del sistema. A este tipo de diagramas también se les conoce como "Gráficas de diente de sierra"

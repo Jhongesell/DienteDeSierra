@@ -1,0 +1,10 @@
+                                Programa de Integración y Disparo 1.0
+
+
+6. LEVANTAMIENTOS
+
+En este escenario se trazan las gráficas de la función de disparos F(t), lo cual permite apreciar las características de un levantamiento de una función de la circunferencia, tales como la envolvencia de dicha función, i.e. 
+
+	F(t+1) = F(t) + k , con k entero, 
+
+si f(t) es una función de la circunferencia de grado k. 

@@ -1,0 +1,6 @@
+                                Programa de Integración y Disparo 1.0
+
+
+2. FUNCIONES EN LA CIRCUNFERENCIA
+
+	Con este modulo es posible visualizar la dinámica de las iteraciones de la función de fases de disparos f(t) de S¹ en S¹. Al trazar las iteraciones sobre un círculo de perímetro 1, nos permite darnos una idea de si las iteraciones de la función con los parámetros en turno convergen a alguna órbita periódica o si por el contrario la dinámica aparenta ser ergódica.

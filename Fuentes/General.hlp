@@ -1,0 +1,38 @@
+                           Programa de Integración y Disparo 1.0
+
+
+
+                           Patrocinado por:
+                           Laboratorios de Sistemas Complejos, S.C.
+                           Laboratorio de Dinámica no Lineal, UNAM.
+
+
+
+El programa IYD.EXE se compone de seis módulos o escenarios gráficos que permiten analizar la dinámica de las funciones de fases de disparos f(t), las cuales son funciones de la circunferencia S¹ en S¹, o bien de las funciones de tiempos de disparos o levantamientos F(t) de esta.
+
+Estas funciones son generadas por sistemas de integración y disparo de la forma:
+
+	u´ = -su + g(t;a)    			(1)
+con la condición de salto
+	u(t+) = 0 si u(t) = 1 ,			(2)
+
+donde u(t) es el potencial de la neurona, s es la capacitancia, g(t;a) es un forzamiento aplicado a la neurona que es periódico en t, y (´) denota derivada con respecto a t.
+
+Estos sistemas provienen de modelar el potencial de acción de una neurona biológica. A la condición (2) se le llama umbral de disparo y tiene sentido biológico.
+
+La condición (2) implica que si el potencial alcanza el umbral de disparo, que por simplicidad está normalizado a 1. Entonces se considera que la neurona emite un impulso y que al instante siguiente está descargada, o sea que el potencial es automáticamente inicializado a cero.
+
+La función F(t) se llama función de tiempos de disparo y es definida a partir del sistema (1), (2) mediante las soluciones U(0,tn;a) pues tn+1 = F(tn) si U(0,tn+1;a)=1. 
+
+La función f(t) se llama función de fases de disparo y se obtiene al hacer f(t) = F(t) mod 1, que es equivalente a que f(t) tome solamente la parte fraccionaria de F(t).
+
+Estamos suponiendo que estos sistemas son dependientes de una familia de parámetros reales a=(a1,...,an) y que la función g(x,t;a) es infinitamente diferenciable y periódica de período 2p en t: g(x,t;a) = g(x,t+2p;a).
+
+Los escenarios gráficos que componen el programa son:
+
+    1. DIAGRAMAS DE BIFURCACIONES
+    2. FUNCIONES EN LA CIRCUNFERENCIA
+    3. LENGUAS DE ARNOLD
+    4. FUNCIONES EN EL TORO
+    5. CURVAS INTEGRALES
+    6. LEVANTAMIENTOS

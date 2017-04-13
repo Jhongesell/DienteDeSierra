@@ -1,0 +1,10 @@
+                                Programa de Integración y Disparo 1.0
+
+
+3. LENGUAS DE ARNOLD
+
+En este escenario también se trazan diagramas de bifurcaciones que permiten ver los cambios cualitativos que sufre la dinámica del sistema dado por las funciones de tiempos de disparos de S¹ en S¹, pero en este módulo son dos los parámetros que varían y los demás se mantienen constantes. Se calcula el número rotacional r (f), que está definido como:
+
+	r(f) = lim(Fn(t)/n) mod 1
+
+o bien la resonancia en cada punto para el conjunto de valores de parámetros en turno. Decimos que tenemos una resonancia (q : p), con q y p números naturales incluído el cero, si logramos hallar alguna órbita atractora que tenga período q y envolvencia p. Si este número rotacional hallado es suficientemente cercano o la resonancia es igual a alguno de los datos que se introducen de antemano, se le asigna un color predeterminado por el usuario para ser trazado en la pantalla. Entonces, lo que se está trazando son las regiones del espacio de parámetros donde el número rotacional o la resonancia son constantes. A este tipo de diagramas les llama "Lenguas de Arnold".
